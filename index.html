@@ -11,15 +11,18 @@
 
 <body>
 
-  <header class="flex-row lg:text-left text-center lg:flex lg:justify-between container mx-auto lg:mt-[70px] mt-10 lg:mb-[140px] mb-20">
+  <header
+    class="flex-row lg:text-left text-center lg:flex lg:justify-between container mx-auto lg:mt-[70px] mt-10 lg:mb-[140px] mb-20">
     <!-- header content -->
     <section class="header-content">
       <h1 class="text-[#1c1c1c] lg:text-[80px] text-4xl font-bold lg:leading-[100px] leading-[50px]">It's good <br>
         tea time at <br> The Tea House</h1>
 
-      <p class="lg:my-[30px] my-3 lg:text-lg text-xs text-[#777777] lg:leading-[30px] leading-5">Tea and Botanical Solutions Supplier Give Optimum <br> Satisfaction To Your Taste Buds.</p>
+      <p class="lg:my-[30px] my-3 lg:text-lg text-xs text-[#777777] lg:leading-[30px] leading-5">Tea and Botanical
+        Solutions Supplier Give Optimum <br> Satisfaction To Your Taste Buds.</p>
 
-      <button class="mx-auto lg:mx-0 bg-linear-[270deg] to-[#ff8937] from-[#ff0000] lg:py-[18px] py-2 px-5 rounded-[10px] flex lg:gap-[10px] gap-1 items-center">
+      <button
+        class="mx-auto lg:mx-0 bg-linear-[270deg] to-[#ff8937] from-[#ff0000] lg:py-[18px] py-2 px-5 rounded-[10px] flex lg:gap-[10px] gap-1 items-center">
         <span class="text-white lg:text-xl text-xs font-semibold">Explore More</span>
         <div class="w-[10px] h-[10px]"><img class="h-full w-full" src="./images/arrow.png" alt="arrow"></div>
       </button>
@@ -29,18 +32,70 @@
     <!-- header img -->
     <section class="header-img mt-[60px] relative lg:w-auto w-[90%] mx-auto">
       <img src="./images/banner.png" alt="banner-img">
-      <div class="absolute bottom-0 lg:left-24 left-10 img-rating-area flex items-center lg:h-[100px] h-16 lg:w-[255px] w-40 mx-auto justify-center gap-3 bg-[#ffffff] shadow-xl shadow-gray-300 rounded-[10px]">
+      <div
+        class="absolute bottom-0 lg:left-24 left-10 img-rating-area flex items-center lg:h-[100px] h-16 lg:w-[255px] w-40 mx-auto justify-center gap-3 bg-[#ffffff] shadow-xl shadow-gray-300 rounded-[10px]">
         <div class="lg:h-auto h-6 lg:w-auto w-6"><img src="./images/star.png" alt="star"></div>
         <div class="rating text-left">
-           <h4 class="font-bold lg:text-2xl text-base">5.00</h4>
-           <p class="text-[#777777] lg:text-base text-[10px]">Trust Pilot Rating</p>
+          <h4 class="font-bold lg:text-2xl text-base">5.00</h4>
+          <p class="text-[#777777] lg:text-base text-[10px]">Trust Pilot Rating</p>
         </div>
       </div>
     </section> <!-- header img -->
   </header>
 
   <main>
-    
+    <!-- featured products -->
+    <section class="featured-area container mx-auto">
+      <!-- featured content -->
+      <div class="featured-content text-center">
+        <h1 class="text-[45px] font-bold text-[#1c1c1c]">Our Featured Products</h1>
+        <p class="mt-5 my-[50px] text-base text-[#777777] font-medium leading-7">There are many variations of passages
+          of Lorem Ipsum available, but the majority have suffered alteration in some form,<br>
+          by injected humour, or randomised words which don't look even slightly believable.</p>
+      </div> <!-- featured content -->
+
+      <!-- Products Area -->
+      <div class="featured-products grid lg:grid-cols-4 grid-cols-1">
+
+        <!-- product-1 -->
+        <div class="product-1 p-[30px] text-center rounded-[10px] mx-auto bg-linear-[180deg] from-[#f4f4f4]">
+          <div class="w-[135px] h-[212px] mx-auto">
+            <img class="mx-auto mb-[30px] w-full h-full" src="./images/tea-1.png" alt="tea-1">
+          </div>
+          <h5 class="mb-2 font-bold text-xl">Milk Tea</h5>
+          <p class="text-base text-[#777777] font-medium leading-5">Creamer could be replaced <br> by fresh milk</p>
+        </div> <!-- product-1 -->
+
+        <!-- product-2 -->
+        <div class="product-2 p-[30px] text-center rounded-[10px] mx-auto bg-linear-[180deg] from-[#f4f4f4]">
+          <div class="w-[135px] h-[212px] mx-auto">
+            <img class="mx-auto mb-[30px] w-full h-full" src="./images/tea-2.png" alt="tea-2">
+          </div>
+          <h5 class="mb-2 font-bold text-xl">Black Tea</h5>
+          <p class="text-base text-[#777777] font-medium leading-5">Creamer could be replaced <br> by fresh milk</p>
+        </div> <!-- product-2 -->
+
+        <!-- product-3 -->
+        <div class="product-3 p-[30px] text-center rounded-[10px] mx-auto bg-linear-[180deg] from-[#f4f4f4]">
+          <div class="w-[135px] h-[212px] mx-auto">
+            <img class="mx-auto mb-[30px] w-full h-full" src="./images/tea-3.png" alt="product-3">
+          </div>
+          <h5 class="mb-2 font-bold text-xl">Lemon Tea</h5>
+          <p class="text-base text-[#777777] font-medium leading-5">Creamer could be replaced <br> by fresh milk</p>
+        </div> <!-- product-3 -->
+
+        <!-- product-4 -->
+        <div class="product-4 p-[30px] text-center rounded-[10px] mx-auto bg-linear-[180deg] from-[#f4f4f4]">
+          <div class="w-[135px] h-[212px] mx-auto">
+            <img class="mx-auto mb-[30px] w-full h-full" src="./images/tea-4.png" alt="product-4">
+          </div>
+          <h5 class="mb-2 font-bold text-xl">Green Tea</h5>
+          <p class="text-base text-[#777777] font-medium leading-5">Creamer could be replaced <br> by fresh milk</p>
+        </div> <!-- product-4 -->
+
+      </div> <!-- Products Area -->
+
+    </section><!-- featured products -->
   </main>
 
   <footer></footer>
