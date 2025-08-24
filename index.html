@@ -130,7 +130,8 @@
     </section><!-- quality area -->
 
     <!-- client area -->
-    <section class="client-area rounded-[10px] py-[85px] px-[70px] container mx-auto flex lg:flex-row items-center justify-between flex-col gap-12 bg-[linear-gradient(270deg,#ff0000,#ff8937)] relative">
+    <section
+      class="client-area rounded-[10px] py-[85px] px-[70px] container mx-auto flex lg:flex-row items-center justify-between flex-col gap-12 bg-[linear-gradient(270deg,#ff0000,#ff8937)] relative">
 
       <div class="left-area lg:w-1/2 w-[98%] mx-auto">
         <h2 class="text-[45px] font-extrabold text-[#f4f4f4]">Meet Our Super Clients</h2>
@@ -207,13 +208,15 @@
     </section><!-- client area -->
 
     <!-- event area -->
-     <section class="event-area container mx-auto">
-       <div class="event-content text-center my-[130px] mb-12">
-          <h2 class="text-[45px] font-extrabold text-[#1c1c1c] mb-5">News & Events</h2>
-          <p class="font-medium leading-7 text-[#777777]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,<br>by injected humour, or randomised words which don't look even slightly believable.</p>
-       </div>
+    <section class="event-area container mx-auto my-[130px]">
+      <div class="event-content text-center mb-12">
+        <h2 class="text-[45px] font-extrabold text-[#1c1c1c] mb-5">News & Events</h2>
+        <p class="font-medium leading-7 text-[#777777]">There are many variations of passages of Lorem Ipsum available,
+          but the majority have suffered alteration in some form,<br>by injected humour, or randomised words which don't
+          look even slightly believable.</p>
+      </div>
 
-       <div class="event-cards flex items-center justify-center lg:flex-row flex-col gap-6">
+      <div class="event-cards flex items-center justify-center lg:flex-row flex-col gap-6">
         <div class="card-1 border border-[#D2D2D2] rounded-[10px] p-5">
           <img class="mb-5 rounded-[10px]" src="./images/news-1.png" alt="event-img-1">
           <h6 class="mb-[10px] font-medium leading-7 text-[#777777]">Feb 05, 2027</h6>
@@ -235,14 +238,70 @@
           <p class="leading-7 text-[#777]">There are many variations of passages of <br> Lorem Ipsum available.</p>
           <a class="font-bold leading-7 text-[#1c1c1c]" href="">Learn More</a>
         </div>
-       </div>
-     </section>
+      </div>
+    </section>
     <!-- event area -->
   </main>
 
-  <footer>
-    <section class="container">
-      
+  <footer class="bg-linear-[270deg] from-[#ff00001a] to-[#ff89381a] lg:py-[130px] py-10">
+    <section class="container mx-auto">
+      <!-- top footer -->
+      <div class="top-footer flex lg:flex-row flex-col justify-between items-center lg:gap-0 gap-10 lg:mb-[100px] mb-10">
+        <div><img src="./images/cup.png" alt="cup"></div>
+        <div class="top-right flex items-center gap-10">
+          <p class="text-[#777] lg:text-xl text-lg font-medium leading-10">Ready to get strated?</p>
+          <button
+            class="mx-auto lg:mx-0 bg-linear-[270deg] to-[#ff8937] from-[#ff0000] lg:py-[18px] py-2 px-5 rounded-[10px] flex lg:gap-[10px] gap-1 items-center">
+            <span class="text-white lg:text-xl text-xs font-semibold">Get Started</span>
+          </button>
+        </div>
+      </div><!-- top footer -->
+
+      <!-- bottom footer -->
+      <div class="bottom-footer lg:w-full w-[90%] mx-auto flex lg:flex-row flex-col justify-between lg:gap-0 gap-10">
+
+        <div class="links flex flex-col gap-5">
+          <h5 class="font-semibold lg:text-2xl text-lg">Quick Links</h5>
+          <a class="text-[#777] lg:text-xl text-base" href="#">Home</a>
+          <a class="text-[#777] lg:text-xl text-base" href="#">About Us</a>
+          <a class="text-[#777] lg:text-xl text-base" href="#">Insurance</a>
+          <a class="text-[#777] lg:text-xl text-base" href="#">Privacy Policy</a>
+        </div>
+
+        <div class="services flex flex-col gap-5">
+          <h5 class="font-semibold lg:text-2xl text-lg">Our Services</h5>
+          <a class="text-[#777] lg:text-xl text-base" href="#">Life Insurance</a>
+          <a class="text-[#777] lg:text-xl text-base" href="#">Car Insurance</a>
+          <a class="text-[#777] lg:text-xl text-base" href="#">Health Insurance</a>
+          <a class="text-[#777] lg:text-xl text-base" href="#">House Policy</a>
+        </div>
+
+        <div class="help flex flex-col gap-5">
+          <h5 class="font-semibold lg:text-2xl text-lg">Helps</h5>
+          <a class="text-[#777] lg:text-xl text-base" href="#">FAQs</a>
+          <a class="text-[#777] lg:text-xl text-base" href="#">Contact Us</a>
+        </div>
+
+        <div class="subscribe">
+          <h5 class="font-semibold lg:text-3xl text-xl mb-10">Subscribe to our <br> newsletter</h5>
+          <div class="flex items-center">
+            <input class="border-b-2 border-[#777] pb-4 w-full" type="email" name="email" id="email"
+              placeholder="Email address">
+            <div
+              class="bg-linear-[270deg] to-[#ff8937] from-[#ff0000] w-9 h-8 rounded-full flex items-center justify-center">
+              <img class="w-5 h-5" src="./images/right-arrow.png" alt="arrow">
+            </div>
+          </div>
+          <div class="icons mt-12 flex items-center gap-6">
+             <div class="w-8 h-8"><img class="w-full h-full" src="./images/facebook.png" alt="facebook"></div>
+             <div class="w-8 h-8"><img class="w-full h-full" src="./images/twitter.png" alt="twitter"></div>
+             <div class="w-8 h-8"><img class="w-full h-full" src="./images/instagram.png" alt="instagram"></div>
+          </div>
+        </div>
+
+      </div><!-- bottom footer -->
+
+      <p class="text-[#777] text-center mt-[100px] text-sm">© 2027 UIDesign.to - All rights reserved.</p>
     </section>
   </footer>
 </body>
